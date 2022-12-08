@@ -41,3 +41,5 @@ You can create a dataset of your own, also using `NeMo` ASR features.
 - Pitch metrics are needed from your data: [script](https://raw.githubusercontent.com/NVIDIA/NeMo/main/scripts/dataset_processing/tts/compute_speaker_stats.py) can help you out 😎
 - You will need to normalize your text inputs, check [this notebooks](https://github.com/NVIDIA/NeMo/blob/main/tutorials/text_processing/Text_(Inverse)_Normalization.ipynb).
 - The expected audio files need to be in 22050Hz as sample rate. You can export your data with `from scipy.io.wavfile import write`.
+
+# CopyRight reserved by (https://github.com/tcapelle/nemo_wandb)[Thomas Capelle @ Weights Biases ML Engineer] 
